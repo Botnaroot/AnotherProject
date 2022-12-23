@@ -1,0 +1,267 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Dosis:wght@200;300;400;500;600;700;800&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dosis', sans-serif;
+}
+
+
+header {
+    width: 100vw;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 7px solid black;
+    gap: 400px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 15px 40px;
+    border: 4px solid black;
+    border-radius: 70px;
+}
+
+header img {
+    width: 60px;
+    height: 60px;
+}
+
+header h1 {
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.buttons button {
+    padding: 4px 30px;
+    border: 2px solid black;
+    border-radius: 70px;
+    font-size: 18px;
+    font-weight: 700;
+    background: none;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.title img {
+    width: 50px;
+    height: 50px;
+    padding-right: 8px;
+}
+
+.title h1 {
+    font-size: 40px;
+}
+
+.addNote {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#todo {
+    padding: 6px 40px;
+    border: 4px solid black;
+    border-radius: 70px;
+    font-size: 22px;
+    font-weight: 700;
+    background: none;
+}
+
+#add {
+    padding: 6px 40px;
+    border: 4px solid black;
+    border-radius: 70px;
+    font-size: 22px;
+    font-weight: 700;
+    background: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ---BACKGROUND APP CLASS--- */
+
+.image1 {
+    background-image: url("https://images.unsplash.com/photo-1521811628991-7a3ea581f7d1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+    background-position: center;
+    background-size: cover;
+}
+
+.image2 {
+    background-image: url("https://images.unsplash.com/photo-1542272201-b1ca555f8505?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80");
+    background-position: center;
+    background-size: cover;
+}
+
+.image3 {
+    background-image: url("https://images.unsplash.com/photo-1543857778-c4a1a3e0b2eb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1910&q=80");
+    background-position: center;
+    background-size: cover;
+}
+
+.image4 {
+    background-image: url("https://images.unsplash.com/photo-1554147090-e1221a04a025?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2048&q=80");
+    background-position: center;
+    background-size: cover;
+}
+
+.image5 {
+    background-image: url("https://images.unsplash.com/photo-1528459801416-a9e53bbf4e17?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1912&q=80");
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+
+/*-------------*/
+
+
+main {
+    max-width: 1100px;
+    border: 5px solid black;
+    border-radius: 30px;
+    margin: auto;
+    width: 50%;
+    margin-top: 30px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 27px;
+    padding-bottom: 20px;
+}
+
+#tod {
+    max-width: 500px;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    object-fit: contain;
+    margin-top: 20px;
+    padding: 30px;
+    border: 2px solid black;
+    border-radius: 30px;
+}
+
+#texttodo {
+    height: auto;
+    width: fit-content;
+    margin-bottom: 20px;
+}
+
+#timeAndButtons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+#timeAndButtons p {
+    font-size: 16px;
+    margin-top: 5px;
+    padding: 6px 40px;
+    border: 2px solid black;
+    border-radius: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#buttonss {
+    display: flex;
+    flex-direction: column;
+}
+
+#buttonss button {
+    font-size: 16px;
+    margin-top: 5px;
+    padding: 6px 40px;
+    border: 2px solid black;
+    border-radius: 70px;
+    background: none;
+    font-weight: 700;
+}
+
+
+
+
+/*
+#de6262 → #ffb88c
+#e9d362 → #333333
+#fc354c → #0abfbc
+#414d0b → #727a17
+#283048 → #859398
+*/
+
+/*GRADIENTS*/
+
+.bg0 {
+    background: none;
+}
+
+.bg1 {
+    background: linear-gradient(#de6262, #ffb88c);
+}
+
+.bg2 {
+    background: linear-gradient(#fc354c, #0abfbc);
+}
+
+.bg3 {
+    background: linear-gradient(#e9d362, #333333);
+}
+
+.bg4 {
+    background: linear-gradient(#414d0b, #727a17);
+}
+
+.bg5 {
+    background: linear-gradient(#283048, #859398);
+}
+
+
+
+/*
+font-family: 'Alegreya Sans', sans-serif;
+font-family: 'Chakra Petch', sans-serif;
+font-family: 'Dosis', sans-serif;
+font-family: 'Kanit', sans-serif;
+font-family: 'Prompt', sans-serif;
+*/
